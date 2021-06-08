@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+
+.section{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.articlecomplement{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(55, 180, 55);
+    padding: 10px;
+
+}
+
+.articleinsult{
+    display: flex;
+    border: 1px solid rgb(145, 68, 68);
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+
+.button{
+    background-color:green;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border:green solid 1.5px;
+}
+
+.button1{
+    background-color:rgb(145, 68, 68);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.button1:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border:rgb(145, 68, 68) solid 1.5px;
+}
